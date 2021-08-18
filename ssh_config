@@ -9,4 +9,4 @@ Host *
 #    HostName example.com
 #    User www
 #    Port 10088
-#    IdentityFile ~/.ssh/id_rsa_test
+#    IdentityFile ~/.ssh/example.com/id_rsa
