@@ -1,0 +1,12 @@
+Host *
+    ControlMaster auto
+    ControlPath ~/.ssh/%r@%h:%p
+    ControlPersist yes
+    ServerAliveInterval 60
+    ServerAliveCountMax 120
+
+#Host example.com
+#    HostName example.com
+#    User www
+#    Port 10088
+#    IdentityFile ~/.ssh/id_rsa_test
